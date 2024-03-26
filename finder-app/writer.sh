@@ -36,14 +36,3 @@ fi
 
 # Print success message
 echo "File created: $writefile"
-
-
-if [[ $# -eq 0 ]] ; then
-    echo 'some message'
-    exit 0
-fi
-
-case "$1" in
-    1) echo 'you gave 1' ;;
-    *) echo 'you gave something else' ;;
-esac
